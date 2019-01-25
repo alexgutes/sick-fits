@@ -1,11 +1,8 @@
 import Link from 'next/link';
 
-const Sell = props => (
+const Sell = () => (
   <div>
     <p>Sell</p>
-    <Link href="/index">
-      <a>Home</a>
-    </Link>
   </div>
 );
 
